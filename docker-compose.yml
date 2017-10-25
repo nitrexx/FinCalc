@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  fincalc.web:
+    image: fincalc.web
+    build:
+      context: ./FinCalc.Web
+      dockerfile: Dockerfile
